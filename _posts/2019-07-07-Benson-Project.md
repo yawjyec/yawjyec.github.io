@@ -48,7 +48,7 @@ Not only were they high in traffic, but they also had low variability. Therefore
 
 ![Image test]({{ site.url }}/images/MTA_Top5_Station2.png)
 
-# Conclusion
+## Conclusion
 
 In conclusion, we recommend customer to place their volunteers at the top five station that we identified, during mid-week between 4PM and 8PM.
 
