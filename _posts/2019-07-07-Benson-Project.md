@@ -8,7 +8,7 @@ First week at Metis Data Science bootcamp has just ended. It's exactly what I th
 Did I not mention that this Metis's curriculum is very intense already? We were given the first project to complete in 4 days. I worked with another 3 awesome team members
 to analyze MTA subway foot-traffic data. The goal of this project was to help a non-profit client to optimize the placement of their street teams at subway stations, such that they could get as many potential commuters as possible to attend the gala. 
 
-![Image test]({{ site.url }}/images/AlanLeeShireGandalf.JPG)
+![Image MTA]({{ site.url }}/images/MTASubway_hero.jpg)
 
 ```
 ---
