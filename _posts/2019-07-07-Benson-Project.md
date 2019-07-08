@@ -3,9 +3,9 @@ layout: post
 title: First Week @ Metis - Project Benson
 ---
 
-First week at Metis Data Science bootcamp has just ended. It's exactly what I thought it would be... very intense and a lot of new things to learn in a short period of time. For me, the most challenging new tool that I learned has got to be Git and GitHub. I'm still not too familiar with the workflow. Hopefully with more practice, it will come naturally to me in no time.
+First week at Metis Data Science bootcamp has just ended. It was exactly what I thought it would be... very intense and a lot of new things to learn in a short period of time. For me, the most challenging new tool that I learned has got to be Git and GitHub. I'm still not too familiar with the workflow. Hopefully with more practice, it will come naturally to me in no time.
 
-Did I not mention that this Metis's curriculum is very intense already? We were given the first project to complete in 4 days. I worked with another 3 awesome team members (Hari, Joel and Leo) to analyze MTA subway foot-traffic data. The goal of this project was to help a non-profit client to optimize the placement of their street teams at subway stations, such that they could get as many potential commuters as possible to attend the gala. We went through the EDA (Exploratory Data Analysis) process in order to gain insight of the turnstile data we extracted from MTA website.
+Did I not mention that this Metis's curriculum is very intense already? Yup... this week, we already had our first project to complete in 4 days. I worked with 3 awesome team members (Hari, Joel and Leo) to analyze MTA subway traffic data. The goal of this project was to help a non-profit client to optimize the placement of their street teams at subway stations, such that they could get as many potential commuters as possible to attend the gala. We went through the EDA (Exploratory Data Analysis) process in order to gain insight of the turnstile data extracted from MTA website.
 
 ![Image test]({{ site.url }}/images/MTASubway_hero.jpg)
 
@@ -31,7 +31,7 @@ The approach that my team used was to identify the days of the week and time of 
 ![Image test]({{ site.url }}/images/MTA_AM_PM_Compare.PNG)
 ![Image test]({{ site.url }}/images/MTA_DayofWeek_Compare.PNG)
 
-The top five stations that had the highest traffic were then identified. They are:
+The top five stations that had the highest traffic are:
 * 34 ST-PENN STA
 * GRD CNTRL-42 ST
 * 34 ST-HERALD SQ
