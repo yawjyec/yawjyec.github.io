@@ -1,14 +1,14 @@
 ---
 layout: post
-title: First ever blog! Yay!
+title: First Week @ Metis - Project Benson
 ---
 
-This is a test post. 
+First week at Metis Data Science bootcamp has just ended. It's exactly what I thought it would be... very intense and a lot of new things to learn in a short period of time. For me, the most challenging new tool that I learned has got to be Git and GitHub. I'm still not too familiar with the workflow. Hopefully with more practise, it will come naturally to me in no time.
 
-To make a post, you must follow the naming convention shown for this file,
-with the data as the first part of the file name, seperated by dashes. Then
-the name of the post as you want it to be stored, with spaces as dashes.
-Finally, you must also keep the 
+Did I not mention that this Metis's curriculum is very intense already? We were given the first project to complete in 4 days. I worked with another 3 awesome team members
+to analyze MTA subway foot-traffic data. The goal of this project was to help a non-profit client to optimize the placement of their street teams at subway stations, such that they could get as many potential commuters as possible to attend the gala. 
+
+![Image test]({{ site.url }}/images/AlanLeeShireGandalf.JPG)
 
 ```
 ---
