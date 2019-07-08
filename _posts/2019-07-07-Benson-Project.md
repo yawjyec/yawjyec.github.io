@@ -20,18 +20,22 @@ Some of the tools that we used for this project include:
 
 ## Data Extraction and Cleaning
 
-The data extracted from MTA website needed some cleaning before we could use it for further analysis. This is in fact an excellent data for us since it made us aware that real world data is normally messy and inconsistent. We used the turnstiles' entries and exits counts to find out the ridership of all subway stations. 
+The data extracted from MTA website needed some cleaning before we could use it for further analysis. This is in fact an excellent data for us since it made us aware that real world data is normally messy and inconsistent. 
 
-![Image test]({{ site.url }}/images/MTA_Data_Raw.PNG)
+In order to find out the ridership of all subway stations, we used the turnstiles' entries and exits values. Since the values were not commuter counts at that particular hour, but turnstile counter values, we had to extract the counts by subtracting value from one row before.
+
+![Image test]({{ site.url }}/images/MTA_Data_Raw.png)
 
 ## Analysis
 
-The approach that my team used was to identify the days of the week and time of the day with high traffic first before we narrow down to top 5 stations. our finding showed that PM rush hour (4pm to 8pm) and weekdays had the highest ridership.
+We started the analysis by studying commuter traffic based on the days of the week and the hour of the day. We noticed that weekends had significantly lower ridership compared to weekdays. Based on that, we removed weekends data for further analysis. We also noticed the inconsistency of hour when data was recorded. Therefore, we created two hour-bins to represent the AM rush hour bin and PM rush hour bin. 
 
-![Image test]({{ site.url }}/images/MTA_AM_PM_Compare.PNG)
-![Image test]({{ site.url }}/images/MTA_DayofWeek_Compare.PNG)
+Further analysis revealed that PM rush hour (4pm to 8pm) and mid-week (Tuesday, Wednesday and Friday) had the highest ridership. 
 
-The top five stations that had the highest traffic are:
+![Image test]({{ site.url }}/images/MTA_AM_PM_Compare.png)
+![Image test]({{ site.url }}/images/MTA_DayofWeek_Compare.png)
+
+The top five stations that had the highest traffic were identified:
 * 34 ST-PENN STA
 * GRD CNTRL-42 ST
 * 34 ST-HERALD SQ
@@ -40,29 +44,13 @@ The top five stations that had the highest traffic are:
 
 Not only were they high in traffic, but they also had low variability. Therefore if our client places their street team at those stations, they are guaranteed to meet with large number of commuters. 
 
-![Image test]({{ site.url }}/images/MTA_Top5_Station1.PNG)
+![Image test]({{ site.url }}/images/MTA_Top5_Station1.png)
 
-![Image test]({{ site.url }}/images/MTA_Top5_Station2.PNG)
+![Image test]({{ site.url }}/images/MTA_Top5_Station2.png)
 
-```
----
-layout: post
-title: Jay's Test Post
----
-```
+# Conclusion
 
-Part in the post to tell the page how to title your post and how to render it.
+In conclusion, we recommend customer to place their volunteers at the top five station that we identified, during mid-week between 4PM and 8PM.
 
-Below are some examples of loading images, making links, and doing other
-markdown-y things.
+For more details of the analysis or source code, you can go to [this link](https://github.com/jporcaro1771/Gala_Project/blob/master/Project%20Benson.ipynb)
 
-
-[This is a link](http://thisismetis.com)
-
-![Image test]({{ site.url }}/images/AlanLeeShireGandalf.JPG)
-
-### Other things
-* Like
-* lists
-* and 
-* stuff
